@@ -1,13 +1,13 @@
-#!/bin/python
+#!/bin/python3
 
 # Reading data from the user's input
 a = input("Enter a : ")
 
-print("You entered", a, "which is a", type(a))
+print("You entered",a,", which is a", type(a))
 
 b = input("Enter b : ")
 
-print("You entered", b, "which is a", type(b))
+print("You entered",b,", which is a",type(b))
 
 
 #######################################################################
@@ -15,9 +15,8 @@ print("You entered", b, "which is a", type(b))
 #       Let's assume we want a and b to be integers at this point
 #######################################################################
 
-a = int(a)
-b = int(b)
-
+a=int(a)
+b=int(b)
 print("What is", a, "now?", type(a))
 print("What is", b, "now?", type(b))
 
@@ -42,6 +41,7 @@ print("a // b =",
 
 remainder = a % b
 print("a % b =", remainder, ", which is a", type(remainder))
+
 power = a ** b
 print("a ** b =", power, ", which is a", type(power))
 
@@ -75,10 +75,10 @@ floor_quotient = a // b
 print("a // b =", floor_quotient, ", which is a", type(floor_quotient))
 
 remainder = a % b
-print("a % b =," remainder ", which is a", type(remainder))
+print("a % b =,", remainder, ", which is a", type(remainder))
 
 power = a ** b
-print("a ** b =",power,", which is a", type(power))
+print("a ** b =", power,", which is a", type(power))
 
 a += 1
 print("Incrementing \"a\" by one results in", a, "which is a", type(a))
