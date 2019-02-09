@@ -1,4 +1,4 @@
-#!/bin/bash
+ø#!/bin/bash
 
 # Reading data from the user's input
 read -p 'Enter a : ' a
